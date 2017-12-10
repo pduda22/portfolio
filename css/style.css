@@ -24,19 +24,17 @@ nav#main-nav > ul {
 }
 nav#main-nav > ul > li {
     display: inline-block;
-    padding: 20px;
+    padding: 20px 40px;
     
 }
 nav#main-nav > ul > li > a {
-    color: #1ac056; 
     text-decoration: none;
+    color: #1ac056; 
 }
 
 nav#main-nav > ul > li > a:hover {
-    color: aqua;
+    color: #291f1a;
 }
-
-
 
 /*Navigation-end*/
 
