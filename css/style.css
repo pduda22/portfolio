@@ -1,4 +1,138 @@
+/*General styles-start*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+/*General styles-end*/
+
+/*Navigation-start*/
+
+nav#main-nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+}
+nav#main-nav > ul {
+    margin: 0;
+    float: right;
+}
+nav#main-nav > ul > li {
+    display: inline-block;
+    padding: 20px;
+    
+}
+nav#main-nav > ul > li > a {
+    color: #1ac056; 
+    text-decoration: none;
+}
+
+nav#main-nav > ul > li > a:hover {
+    color: aqua;
+}
+
+
+
+/*Navigation-end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 font-family: "Lato" {
     color: #291f1a;
     font-weight: 300px;
 }
+#main-nav .menu {
+    display: inline-block;
+    width: 100px;
+    height: 10%;
+    background-color:#fff;
+    
+}
+#main-nav .menu >a {
+    color: #1ac056;
+    font-weight: 300px;
+    text-decoration: none;
+    text-align: right;
+ 
+}
+#main-nav .menu >a:hover {
+    color: black;
+}
+header#main-header > img {
+    width: 100%;
+  
+}
+header#main-header > h1#main-header-text {
+    position: absolute;
+    top: 65%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    left: 30%;
+    right: 30%;
+    margin: 0 auto; 
+}
+    
+header#main-header > h1#main-header-text > h2#druga {
+    position: absolute;
+    top: 65%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    left: 30%;
+    right: 30%;
+    margin: 0 auto; 
+}
+    
+*/
