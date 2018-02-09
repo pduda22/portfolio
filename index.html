@@ -1,82 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
-    <title>Moje Portfolio</title>
-    
-    <!--    czcionka-->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=latin-ext" rel="stylesheet"> 
-<!--    Font Awesome Style-->
-   <link rel="stylesheet" href="css/font-awesome.min.css">
-<!--    Main style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Portfolio Piotr Duda</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400|Roboto:100,300,400" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
+
+
 </head>
+
 <body>
-<!--Nawigation-->
-<nav id="main-nav">
-    <ul>
-        <li><a href="">O mnie</a></li>
-        <li><a href="">Umiejętności</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Kontakt</a></li>
-    </ul>
-</nav>
-<!--Navigation-end-->
 
-<!--Header start-->
 
-<header id="main-header">
-<div class="main-header-content">
-    <h1>Piotr <span>Duda</span></h1>
-    <h2>Front-End-Developer</h2>   
-</div>
+    <nav id="main-nav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+            </div>
+            <div class="collapse navbar-collapse" id="main-menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="menu-item"><a href="#about">O mnie</a></li>
+                    <li class="menu-item"><a href="#skills">Moje umiejętności</a></li>
+                    <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+                    <li class="menu-item"><a href="#contact">Kontakt</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <header id="main-header">
+        <div class="header-caption">
+            <h1>Piotr <span>Duda</span></h1>
+            <h2>Junior Front end Developer</h2>
+        </div>
     </header>
-<!--Header-end-->
 
-<!--O-mnie-->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <h2>O <span>mnie</span></h2>
+            </div>
+            <div class="row">
+                <figure class="col-sm-6">
+                    <img src="img/jan-nowak.jpg" class="about-img" alt="Jan Nowak">
+                </figure>
+                <div class="col-sm-6">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, error quibusdam rerum obcaecati temporibus similique odio ab inventore? Molestiae ex facere libero blanditiis culpa deleniti reprehenderit amet quas cum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, error quibusdam rerum obcaecati temporibus similique odio ab inventore? Molestiae ex facere libero blanditiis culpa deleniti reprehenderit amet quas cum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, error quibusdam rerum obcaecati temporibus similique odio ab inventore? Molestiae ex facere libero blanditiis culpa deleniti reprehenderit amet quas cum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium architecto, error quibusdam rerum obcaecati temporibus similique odio ab inventore? Molestiae ex facere libero blanditiis culpa deleniti reprehenderit amet quas cum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section id="about">
-    <h2>O <span>mnie</span></h2>
-    <figure>
-        <img src="img/jan-nowak.jpg" alt="Jan Nowak">
-    </figure>
-    <article>
-        <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iusto iste, amet omnis quaerat temporibus at perferendis. Facere dignissimos, iure tempore vitae pariatur cum rerum autem, asperiores voluptatem aperiam, sit!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iusto iste, amet omnis quaerat temporibus at perferendis. Facere dignissimos, iure tempore vitae pariatur cum rerum autem, asperiores voluptatem aperiam, sit!
-        </p> 
-    </article>
-</section>
+    <section id="skills">
+        <div class="container">
+            <div class="row">
+                <h2>Moje <span>Umiejętności</span></h2>
+            </div>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod distinctio voluptates aut maxime hic! Quaerat nemo voluptatibus iste adipisci laudantium animi inventore et, eveniet ratione, temporibus ea magni, vitae natus..</p>
+            </div>
+            <div class="skills-icons">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-3">
 
-<!--O-mnie-->
+                            <figure>
+                                <img src="icons/html5.png" alt="html5">
+                                <figcaption>HTML 5</figcaption>
+                            </figure>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <figure>
+                                    <img src="icons/css3.png" alt="css3">
+                                    <figcaption>CSS3</figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <figure>
+                                        <img src="icons/js.png" alt="js">
+                                        <figcaption>JS</figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-sm-3">
+                                        <figure>
+                                            <img src="icons/jquery.png" alt="jquery">
+                                            <figcaption>Jquery</figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h2>Moje <span>Portfolio</span></h2>
+            </div>
+
+            <div class="portfolio-items row">
+                <div class="portfolio-item col-lg-4 col-sm-6" id="portfolio-item-1">
+                    <div class="portfolio-mask">
+                        <div class="portfolio-content">
+                            <div class="portfolio-content-inner">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit ullam magnam laudantium vero quia .</p>
+                                <h4>Lorem</h4>
+                                <a href="#"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item col-lg-4 col-sm-6" id="portfolio-item-2">
+                    <div class="portfolio-mask">
+                        <div class="portfolio-content">
+                            <div class="portfolio-content-inner">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit ullam magnam laudantium vero quia.</p>
+                                <h4>Lorem</h4>
+                                <a href="#"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="portfolio-item col-lg-4 col-sm-12" id="portfolio-item-3">
+                    <div class="portfolio-mask">
+                        <div class="portfolio-content">
+                            <div class="portfolio-content-inner">
+                                <h3>Lorem ipsum</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa velit ullam magnam laudantium vero quia .</p>
+                                <h4>Lorem</h4>
+                                <a href="#"><i class="fa fa-link fa-2x" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Piotr <span>Duda</span></h2>
+                    <address>
+					<br />
+					ul. Filtrowa 10/10<br /> 
+					02-078 Warszawa<br />
+					<br />
+					<br />
+					tel: 123-123-123 <br />
+					e-mail: <a href="mailto:pawel_lach@onet.pl">piotr.duda@wp.pl</a>
+				</address>
+
+                    <div class="social-icons">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
+                </div>
 
 
 
+                <div class="col-md-6">
+                    <form action="">
+                        <input type="text" placeholder="Imię i nazwisko">
+                        <br />
+                        <br />
+                        <input type="email" placeholder="adres e-mail">
+                        <br />
+                        <br />
+                        <textarea placeholder="Wiadomość"></textarea>
+                        <br />
+                        <input type="submit" value="Wyślij">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 
+    <footer>
+        <p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> Piotr Duda</p>
+    </footer>
 
 
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
 </body>
+
 </html>
